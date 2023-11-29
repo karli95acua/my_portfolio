@@ -64,8 +64,8 @@
 
 @media screen and (max-width: 840px){
     .bg {
-        right: -1vw;
-        height: 65vh;
+        right: 1vw;
+        height: 55vh;
     }
     .introContent {
         font-size: 10vw;
