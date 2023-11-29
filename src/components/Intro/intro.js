@@ -14,7 +14,8 @@ const Intro = () => {
                 <p className="introPara">
                     Soy una desarrolladora web,
                     apasionada por la programación y <br/> la creación de proyectos atractivos y con buen desempeño.</p>
-                <Link><button className="btn"><img src={contactImg} alt="contactImg" className="btnImg"/>Contáctame!</button></Link>
+                <Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>
+                    <button className="btn"><img src={contactImg} alt="contactImg" className="btnImg"/>Contáctame!</button></Link>
             </div>
             <img src={bg} alt="Profile" className="bg"/>
         </section>
