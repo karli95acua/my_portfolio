@@ -17,6 +17,7 @@
     object-fit: cover;
     height: 6rem;
     width: auto;
+    cursor: pointer;
 }
 
 .desktopMenuListItem {
@@ -33,7 +34,7 @@
     object-fit: cover;
     height: 1rem;
     width: 1rem;
-    margin: 1rem;
+    margin: 0.8rem 0.5rem 0.8rem 0;
 }
 
 .desktopMenuBtn {
@@ -45,6 +46,7 @@
     justify-content: center;
     padding: 0 1rem;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 .active {

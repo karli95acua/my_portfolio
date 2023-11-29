@@ -31,7 +31,7 @@ const Works = () => {
                     </div>
                 </div>
                 <div>
-                    <video className="worksImg" controls muted controlsList='nodownload'>
+                    <video className="worksImg" controls muted controlsList='nodownload' playsInline>
                         <source src={VidContador} type="video/mp4" />
                     </video>
                     <div className='project-buttons'>
@@ -57,7 +57,7 @@ const Works = () => {
                     </div>
                 </div>
                 <div>
-                    <video className="worksImg" controls muted controlsList='nodownload'>
+                    <video className="worksImg" controls muted controlsList='nodownload' playsInline>
                         <source src={VidAjedrez} type="video/mp4" />
                     </video>
                     <div className='project-buttons'>
@@ -69,7 +69,7 @@ const Works = () => {
                     </div>
                 </div>
                 <div>
-                    <video className="worksImg" controls muted controlsList='nodownload'>
+                    <video className="worksImg" controls muted controlsList='nodownload' playsInline>
                         <source src={VidHtml} type="video/mp4" />
                     </video>
                     <div className='project-buttons'>

@@ -1,8 +1,6 @@
 import React, { useRef } from 'react';
 import './contact.css';
 import LinkedinIcon from '../../assets/linkedin-icon.png';
-import InstagramIcon from '../../assets/instagram.png';
-import FacebookIcon from '../../assets/facebook-icon.png';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -30,9 +28,9 @@ const Contact = () => {
                     <textarea name='message' className='msg' rows='5' placeholder='Tu mensaje'></textarea>
                     <button type='submit' value='send' className='submitBtn'>Enviar</button>
                     <div className='links'>
-                        <img src={LinkedinIcon} alt='Linkedin' className='link' id='linkedin'/>
-                        <img src={InstagramIcon} alt='Instagram' className='link'/>
-                        <img src={FacebookIcon} alt='Facebook' className='link'/>
+                        <a href='https://www.linkedin.com/in/karli-acuna/' target='_blank' rel='noopener noreferrer'>
+                            <img src={LinkedinIcon} alt='Linkedin' className='link' id='linkedin'/>
+                        </a>
                     </div>
                 </form>
             </div>

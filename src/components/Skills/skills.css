@@ -10,6 +10,10 @@
     margin: 0 auto;
 }
 
+h2 {
+    color: #e493cf;
+}
+
 .skillTitle {
     font-size: 3rem;
     font-weight: 600;
@@ -22,6 +26,7 @@
     font-size: 1rem;
     max-width: 50rem;
     padding: 0 2rem;
+    font-style: oblique;
 }
 
 .skillBars {
