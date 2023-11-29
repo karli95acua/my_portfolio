@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c02444fa.css",
+    "main.js": "/static/js/main.fe241793.js",
+    "static/media/ajedrez.mp4": "/static/media/ajedrez.221ab598a914c8dd29c5.mp4",
+    "static/media/html.mp4": "/static/media/html.2bf0a386687dfcaf80b9.mp4",
+    "static/media/contador.mp4": "/static/media/contador.957c0eba30074f517072.mp4",
+    "static/media/MiProyecto.png": "/static/media/MiProyecto.099495a385de9e36c351.png",
+    "static/media/bbdd.png": "/static/media/bbdd.a9b9e836602b171e0610.png",
+    "static/media/introimg.png": "/static/media/introimg.1df39b6ca8dfe11423d5.png",
+    "static/media/logo.png": "/static/media/logo.39106a3155a0cd5fc973.png",
+    "static/media/linkedin-icon.png": "/static/media/linkedin-icon.6ac77341c7a1f1743ba6.png",
+    "static/media/contact.png": "/static/media/contact.604d4e2dc336730b30b7.png",
+    "static/media/back-end.png": "/static/media/back-end.c4acd455fc2040eddcc8.png",
+    "static/media/instagram.png": "/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/index.html",
+    "main.c02444fa.css.map": "/static/css/main.c02444fa.css.map",
+    "main.fe241793.js.map": "/static/js/main.fe241793.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c02444fa.css",
+    "static/js/main.fe241793.js"
+  ]
+}
