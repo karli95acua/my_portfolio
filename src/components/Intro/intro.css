@@ -128,3 +128,52 @@
         height: 0.6rem;
     }
 }
+
+@media screen and (max-width: 840px) and (orientation: landscape) {
+    #intro {
+        height: auto;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    
+    .bg {
+        top: 10vh;
+        height: auto;
+    }
+    
+    .introContent {
+        font-size: 5vw;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) and (orientation: landscape) {
+    #intro {
+        height: auto;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    .bg {
+        top: 50%;
+        transform: translate(-50%, -50%) scaleX(-1);
+        width: 100%;
+        height: auto;
+    }
+    .introContent {
+        font-size: 4vw;
+        padding: 1rem;
+        align-items: center;
+    }
+    .hello, .introName, .introPara {
+        font-size: 3vw;
+    }
+    
+    .btn, .btn2 {
+        font-size: 3.5vw;
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+    }
+    .btnImg {
+        height: 2.5vw;
+    }
+}
