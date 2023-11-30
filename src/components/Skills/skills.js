@@ -9,9 +9,9 @@ const Skills = () => {
         <section id='skills'>
             <span className="skillTitle">Me dedico a...</span>
             <span className="skillDesc">El desarrollo web full stack, 
-            con especial interés en la creación de interfaces de usuario atractivas, útiles y con buen desempeño.
-            Me apasiona el aprendizaje constante de nuevas herramientas que faciliten la concresión de mi visión creativa en cada proyecto.
-            Hábil en el manejo de HTML, CSS, Bootstrap, Reactstrap, Javascript, React.js y Python en Flask.</span>
+            con especial interés en la creación de interfaces de usuario. Con especial foco en los detalles, 
+            me apasiona el aprendizaje constante de nuevas herramientas que faciliten la concresión de mi visión creativa.
+            </span>
             <div className="skillBars">
                 <div className="skillBar">
                     <img src={FrontEnd} alt="Front-end" className="skillBarImg"/>
