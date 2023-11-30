@@ -65,13 +65,13 @@
 }
 
 #linkedin {
-    height: 120px;
-    width: 120px;
+    height: 90px;
+    width: 90px;
 }
 
 @media screen and (max-width:600px) {
     #linkedin {
-        height: 80px;
-        width: 80px;
+        height: 50px;
+        width: 50px;
     }
 }
