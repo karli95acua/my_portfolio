@@ -154,9 +154,6 @@
         padding-bottom: 5vh;
     }
     .bg {
-        top: 50%;
-        transform: translate(-50%, -50%) scaleX(-1);
-        width: 100%;
         height: auto;
     }
     .introContent {
