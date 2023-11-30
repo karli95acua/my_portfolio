@@ -1,15 +1,17 @@
 #intro {
-    height: calc(100vh - 2rem);
+    height: 100vh;
     width: 100vw;
     max-width: 75rem;
-    margin: 0;
-    overflow: hidden;
+    margin: 1rem auto;
+    overflow:visible;
     position: relative;
-    padding-bottom: 0;
+    padding-bottom: 1rem;
 }
 
 .bg {
     position: absolute;
+    margin-top: 1rem;
+    margin-right: 1rem;
     top: -5rem;
     right: -1rem;
     z-index: -1;
@@ -21,7 +23,7 @@
 .introContent {
     height: 100vh;
     width: 100vw;
-    padding: 2rem;
+    padding: 1rem 2rem;
     font-size: 3rem;
     font-weight: 700;
     display: flex;
@@ -30,6 +32,7 @@
 }
 
 .hello {
+    margin-top: 2rem;
     font-size: 1.75rem;
     font-weight: 100;
     text-shadow: 2px 2px 4px #e493cf, 0px 0px 6px #6966ff, 0px 0px 10px #ff66ff;
@@ -48,26 +51,14 @@
     margin: 1rem 0;
 }
 
-.btn {
+.btn, .btn2 {
     background: white;
     color: black;
     margin: 0.5rem 0;
     padding: 0.75rem 1rem;
     border: none;
     border-radius: 2rem;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn2 {
-    background: white;
-    color: black;
-    margin: 0.5rem 0;
-    padding: 0.75rem 1rem;
-    border: none;
-    border-radius: 2rem;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -79,13 +70,12 @@
 }
 
 @media screen and (max-width: 840px){
-    
     #intro {
         max-width: 85vw;
     }
     .bg {
         right: 1vw;
-        height: 25vh;
+        height: 55vh;
     }
     .introContent {
         font-size: 10vw;
@@ -102,5 +92,91 @@
     }
     .btnImg {
         height: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .bg {
+        right: -5vw;
+        top: 40vw;
+        height: 25vh;
+        margin-top: 1rem; 
+        margin-right:1rem;
+    }
+    .introContent {
+        font-size: 1.4rem;
+    }
+    .hello {
+        font-size: 1.4rem;
+    }
+    .introPara {
+        font-size: 0.9rem;
+    }
+    .btn {
+        padding: 0.4rem 0.6rem;
+        font-size: 1rem;
+    }
+    .btnImg {
+        height: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 840px) and (orientation: landscape) {
+    #intro {
+        height: auto;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    .introContent {
+        font-size: 5vw;
+        padding: 1rem;
+    }
+    
+    .hello, .introName, .introPara {
+        font-size: 3vw;
+    }
+    
+    .btn, .btn2 {
+        font-size: 3vw;
+        padding: 0.5rem 1rem;
+    }
+    
+    .btnImg {
+        height: 2vw;
+    }
+}
+
+@media screen and (max-width: 480px) and (orientation: landscape) {
+    #intro {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    
+    .bg {
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%) scaleX(-1);
+        width: auto;
+        height: 30vh; /* Ajustado para que la imagen no sea demasiado grande */
+    }
+    
+    .introContent {
+        font-size: 4vw;
+        padding: 1rem;
+        align-items: center;
+    }
+    
+    .hello, .introName, .introPara {
+        font-size: 3vw;
+    }
+    
+    .btn, .btn2 {
+        font-size: 3.5vw;
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+    }
+    
+    .btnImg {
+        height: 2.5vw;
     }
 }
