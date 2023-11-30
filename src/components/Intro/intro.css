@@ -96,12 +96,13 @@
 }
 
 @media screen and (max-width: 480px){
+    #intro {
+        margin: 0;
+    }
     .bg {
-        right: -5vw;
-        top: 40vw;
-        height: 25vh;
-        margin-top: 1rem; 
-        margin-right:1rem;
+        right: -19vw;
+        top: -10vw;
+        height: 35vh;
     }
     .introContent {
         font-size: 1.4rem;
