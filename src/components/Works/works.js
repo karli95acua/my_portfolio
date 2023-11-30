@@ -5,6 +5,9 @@ import VidContador from "../../assets/contador.mp4";
 import VidAjedrez from "../../assets/ajedrez.mp4";
 import VidHtml from "../../assets/html.mp4";
 import MiProyecto from "../../assets/MiProyecto.png";
+import PosterContador from "../../assets/fotocontador.png";
+import PosterAjedrez from "../../assets/fotoajedrez.png";
+import PosterHtml from "../../assets/fotohtml.png";
 
 const Works = () => {
     useEffect (() => {
@@ -31,7 +34,7 @@ const Works = () => {
                     </div>
                 </div>
                 <div>
-                    <video className="worksImg" controls muted controlsList='nodownload' playsInline>
+                    <video className="worksImg" controls muted controlsList='nodownload' playsInline poster={PosterContador}>
                         <source src={VidContador} type="video/mp4" />
                     </video>
                     <div className='project-buttons'>
@@ -57,7 +60,7 @@ const Works = () => {
                     </div>
                 </div>
                 <div>
-                    <video className="worksImg" controls muted controlsList='nodownload' playsInline>
+                    <video className="worksImg" controls muted controlsList='nodownload' playsInline poster={PosterAjedrez}>
                         <source src={VidAjedrez} type="video/mp4" />
                     </video>
                     <div className='project-buttons'>
@@ -69,7 +72,7 @@ const Works = () => {
                     </div>
                 </div>
                 <div>
-                    <video className="worksImg" controls muted controlsList='nodownload' playsInline>
+                    <video className="worksImg" controls muted controlsList='nodownload' playsInline poster={PosterHtml}>
                         <source src={VidHtml} type="video/mp4" />
                     </video>
                     <div className='project-buttons'>
