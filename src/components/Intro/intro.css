@@ -79,9 +79,13 @@
 }
 
 @media screen and (max-width: 840px){
+    
+    #intro {
+        max-width: 85vw;
+    }
     .bg {
         right: 1vw;
-        height: 55vh;
+        height: 25vh;
     }
     .introContent {
         font-size: 10vw;
@@ -103,9 +107,9 @@
 
 @media screen and (max-width: 480px){
     .bg {
-        right: -5vw;
+        right: -1vw;
         top: 40vw;
-        height: 25vh;
+        height: 18vh;
     }
     .introContent {
         font-size: 1.4rem;
