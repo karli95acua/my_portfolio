@@ -31,7 +31,7 @@
 
 
 .worksTitle {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 1.5rem;
     color: gainsboro;
 }
@@ -57,7 +57,7 @@
 /* Media query para pantallas pequeñas */
 @media (max-width: 600px) {
     .worksTitle {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .worksDesc {
@@ -78,11 +78,10 @@
 
 @media (max-width: 400px) {
     .worksTitle {
-        font-size: 1.2rem;
+        font-size:2rem;
     }
-
     .worksDesc {
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
 }
 
