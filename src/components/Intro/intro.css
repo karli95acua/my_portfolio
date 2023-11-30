@@ -127,3 +127,30 @@
         height: 0.6rem;
     }
 }
+
+@media screen and (max-width: 600px) and (orientation: landscape) {
+    #intro {
+        height: auto;
+        min-height: 50vh;
+        padding: 1rem 0;
+    }
+    .bg {
+        height: auto;
+        max-height: 50vh;
+    }
+    .introContent {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    .hello, .introPara, .btn, .btn2 {
+        font-size: 1.2rem;
+    }
+    .btn, .btn2 {
+        padding: 0.5rem 1rem;
+        height: auto;
+        width: auto;
+    }
+    .btnImg {
+        height: 0.5rem;
+    }
+}
