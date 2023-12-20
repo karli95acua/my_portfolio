@@ -8,6 +8,8 @@ import ReactImg from "../../assets/react.png";
 import PyImg from "../../assets/python.png";
 import GasImg from "../../assets/app.png";
 import MySQLImg from "../../assets/mysql.png";
+import TailwindCss from "../../assets/tailwind.png";
+import FramerMotion from "../../assets/framer-motion.png";
 
 const Techs = () => {
     return (
@@ -30,6 +32,18 @@ const Techs = () => {
                     <img src={BootsImg} alt="" className="techBarImg" id=""/>
                     <div className="techBarText">
                         <p>Bootstrap</p>
+                    </div>
+                </div>
+                <div className="techBar">
+                    <img src={TailwindCss} alt="" className="techBarImg" id=""/>
+                    <div className="techBarText">
+                        <p>Tailwind</p>
+                    </div>
+                </div>
+                <div className="techBar">
+                    <img src={FramerMotion} alt="" className="techBarImg" id=""/>
+                    <div className="techBarText">
+                        <p>Framer Motion</p>
                     </div>
                 </div>
                 <div className="techBar">
