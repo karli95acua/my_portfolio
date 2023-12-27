@@ -8,6 +8,7 @@ import MiProyecto from "../../assets/MiProyecto.png";
 import PosterContador from "../../assets/fotocontador.png";
 import PosterAjedrez from "../../assets/fotoajedrez.png";
 import PosterHtml from "../../assets/fotohtml.png";
+import IsSystem from "../../assets/is-system.png";
 
 const Works = () => {
     useEffect (() => {
@@ -21,6 +22,18 @@ const Works = () => {
             <h2 className="worksTitle">Mi Portafolio</h2>
             <span className="worksDesc">Proyectos que he desarrollado y que me gustaría que conozcas</span>
             <div className="worksImgs">
+                <div>
+                    <a href='https://issystem.netlify.app/' target="_blank" rel="noopener noreferrer">
+                        <img src={IsSystem} alt='is-system' className="worksImg"/>
+                    </a>
+                    <div className='project-buttons'>
+                        <a href='https://issystem.netlify.app/' target="_blank" rel="noopener noreferrer">
+                            <Button>
+                                Visitar Página
+                            </Button>
+                        </a>
+                    </div>
+                </div>
                 <div>
                     <a href='https://comprarefaccionada-karliacua.vercel.app/' target="_blank" rel="noopener noreferrer">
                         <img src={MiProyecto} alt='carrito-compras' className="worksImg"/>
